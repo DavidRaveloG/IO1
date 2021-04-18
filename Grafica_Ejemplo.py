@@ -4,8 +4,8 @@ from matplotlib import pyplot as plt
 x=np.linspace(0,1,2)
 y1=0*x
 y2=0*x
-plt.plot(x,y2,label='Lapices')
-plt.plot(x*0,x,label='Gomas')
+plt.plot(x,y2,label='Gomas')
+plt.plot(x*0,x,label='Lapices')
 plt.plot(x*0,x,label='Carboncillos')
 plt.xlabel('x')
 plt.ylabel('y')
