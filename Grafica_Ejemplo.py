@@ -2,6 +2,7 @@ import math
 import numpy as np
 from matplotlib import pyplot as plt
 x=np.linspace(0,1,2)
+#funcion
 y1=0*x
 y2=0*x
 plt.plot(x,y2,label='Gomas')
