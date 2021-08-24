@@ -12,7 +12,7 @@ e=0
 f=0
 g=0
 h=0
-
+# diferentes posibilidades evaluadas en la función 
 if(variables(1,1,1)==True):
     a=F_objetivo(1,1,1)
     print(str(F_objetivo)(1,1,1)+' con x1=1,x2=1,x3=1')
@@ -37,5 +37,8 @@ if(variables(0,0,1)==True):
 if(variables(0,0,0)==True):
     h=F_objetivo(0,0,0)
     print(str(F_objetivo(0,0,0))+' con x1=0,x2=0,x3=0')    
+#calcula el maximo de la función 
+
 maximo=[a,b,c,d,e,f,g,h]   
+
 print('El maximo es: '+str(max(maximo)))
